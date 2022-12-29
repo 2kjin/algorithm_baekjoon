@@ -1,9 +1,9 @@
-a, b = map(int,input().split())
+N = input()
 
-a_lst = list(map(int,input().split()))
-b_lst = list(map(int,input().split()))
+a = list(map(int,input().split()))
+b = list(map(int,input().split()))
 
-res = a_lst + b_lst
+res = a + b
 res.sort()
 
-print(*res)
+print(' '.join(map(str,res)))
